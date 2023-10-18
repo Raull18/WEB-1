@@ -1,4 +1,3 @@
- <style>
       .elemento {
         width: 100px;
         height: 100px;
@@ -15,6 +14,3 @@
              transform: translateX(calc(100vw - 100px));
         }
       }
-      
-
-    </style>
