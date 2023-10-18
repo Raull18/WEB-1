@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <style>
+      .elemento {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+        animation: mover-direita 3s linear infinite;
+        
+       }
+      
+      @keyframes mover-direita {
+        0% {
+           transform: translateX(0%);
+        }
+        100% {
+             transform: translateX(calc(100vw - 100px));
+        }
+      }
+      
+
+    </style>
+  </head>
+  <body>
+     <div class="elemento"></div>
+  </body>
+</html>
