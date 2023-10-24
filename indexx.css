@@ -1,0 +1,50 @@
+/*Regras de stilo CSS */
+body {
+  font-family: Arial, sans-serif; /*&Define a familia da fonte */
+  marin: 0; /* Remove preenchimentos externos do corpo do código */
+  padding: 0; /* Remove preenchimentos internos do corpo do codigo */
+}
+
+header {
+  background-color: purple; /* Define a cor de fundo do cabeçalho */
+  color: #fff; /* Define a cor do texto no cabeçalho como branco */
+  padding: 10px; /* Adiciona preenchimento interno de 10 pixels */
+  text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+nav ul {
+  list-style-type: none; /* Remove os marcadores de lista */
+  padding: 0; /* Remove o preenchimento interno da lista não ordenada */
+  margin: 0; /* Remove a margem externa da lista não ordenada */
+  text-align: center; /*Centraliza o texto na lista não ordenada */
+  margin-top:  10px; /* Adiciona uma margem superior de 10 pixels */
+}
+
+nav li {
+  display: inline; /*Exibe os itens da lista na mesma linha */
+  margin-right: 80px; /* Define a margem direita dos itens */
+}
+
+nav a {
+  text-decoration: none; /* Remove a decoração de texto */
+  color: #000; /* Define a cor do texto dos links como preto */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+  transition: color 0,3; /* Adiciona transição suave */  
+}
+
+nav a:hover {
+  color: #ff6600; /* Define a cor dos links ao passar o mouse */
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0; /* Define a opacidade inicial para a animação */
+  }
+  to {
+    opacity: 1; /* Define a opacidade final para animação */   
+  }
+}
+
+header {
+  animation: fadeIn 6s ease-in-out; /* Aplica a animação de fundo */
+}
