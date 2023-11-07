@@ -1,0 +1,24 @@
+.container{
+    background-color: gainsboro;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+.conteudo_esquerdo {
+    width: 40%;
+    height: 100hv;
+    background-color:#ffa500;
+    font-size: 40px;
+}
+
+.centro {
+    width: 20%;
+    background-color: #ffa500;
+    text-align: center;
+}
+
+.lado_direito {
+   width: 40%;
+    background-color: #ffa500;
+}
