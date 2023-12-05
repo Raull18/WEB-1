@@ -1,5 +1,5 @@
 .container{
-    background-color: #ffa500;
+    background-color: #515151;
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -8,9 +8,24 @@
 }
 
 .imagem {
-   width: 100%;
-   background-color: #ffa500;
+   width: 24%;
+   background-color: #515151;
    flex-wrap: wrap;
- 
+}
+
+  .tabela {
+    width: 25%;
+    background-color: #515151;
+    
+}
+    .descricao {
+      width: 50%;
+    background-color: #515151;
+      font-size: 9px;
+      
+  }
+
+h1 {
+  font-color: white;
 }
 
